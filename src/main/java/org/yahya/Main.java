@@ -7,6 +7,7 @@ public class Main {
 
         // Set up chrome driver
         ChromeDriver driver = new ChromeDriver();
+        driver.get("www.google.com");
 
     }
 }
